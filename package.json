@@ -1,0 +1,17 @@
+{
+  "name": "handle-firebase-error",
+  "version": "1.0.0",
+  "description": "Match firebase errors to your own dictionary",
+  "main": "index.js",
+  "repository": "https://github.com/rdjpalmer/handle-firebase-error",
+  "author": "Richard Palmer <rich@rdjpalmer.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "prettier-eslint": "^9.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
