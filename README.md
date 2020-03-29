@@ -27,7 +27,7 @@ try {
   await firebase.auth().signInWithEmailAndPassword(email, password);
   // Errors with error.code `auth/email-already-in-use`
 } catch (error) {
-  mapErrorToField(errorMessageMapper(error));
+  mapErrorToField(mapErrorToMessage(error));
   // { email: "Your custom error message" }
 }
 ```
