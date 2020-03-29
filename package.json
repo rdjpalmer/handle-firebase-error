@@ -7,9 +7,9 @@
   "author": "Richard Palmer <rich@rdjpalmer.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "jest": "^24.8.0",
-    "prettier-eslint": "^9.0.0"
+    "eslint": "^6.8.0",
+    "jest": "^25.2.3",
+    "prettier-eslint": "^9.0.1"
   },
   "scripts": {
     "test": "jest",
